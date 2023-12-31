@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.931" height="64.931" viewBox="0 0 64.931 64.931">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="64.931" height="64.931" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Twitter" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="23.466" cy="23.466" r="23.466" transform="translate(9 6)" fill="#f1f1f1"/>
+    </g>
+    <path id="Twitter-2" data-name="Twitter" d="M18.806,1.809a7.739,7.739,0,0,1-2.216.608,3.869,3.869,0,0,0,1.7-2.134,7.711,7.711,0,0,1-2.451.935A3.86,3.86,0,0,0,9.161,3.857a3.9,3.9,0,0,0,.1.88A10.952,10.952,0,0,1,1.31.706,3.861,3.861,0,0,0,2.5,5.856,3.826,3.826,0,0,1,.757,5.373v.049A3.859,3.859,0,0,0,3.851,9.2a3.852,3.852,0,0,1-1.017.135,3.8,3.8,0,0,1-.726-.07,3.864,3.864,0,0,0,3.6,2.68A7.751,7.751,0,0,1,.92,13.6,7.776,7.776,0,0,1,0,13.547,10.918,10.918,0,0,0,5.915,15.28,10.9,10.9,0,0,0,16.892,4.3c0-.168,0-.333-.011-.5a7.842,7.842,0,0,0,1.925-2Z" transform="translate(14.063 15.826)" fill="#202020"/>
+  </g>
+</svg>

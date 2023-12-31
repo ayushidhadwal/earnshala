@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <filter id="Oval" x="-7" y="-3" width="124" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-ISNT">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="ISNT" clip-path="url(#clip-ISNT)">
+    <rect width="110" height="110" fill="#fff"/>
+    <g id="Group_1535" data-name="Group 1535" transform="translate(19285 12329)">
+      <g transform="matrix(1, 0, 0, 1, -19285, -12329)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="50" cy="50" r="50" transform="translate(5 5)" fill="#fff"/>
+      </g>
+      <path id="Instagram" d="M30.672,43.685H13.014A13.029,13.029,0,0,1,0,30.672V13.014A13.029,13.029,0,0,1,13.014,0H30.672A13.029,13.029,0,0,1,43.685,13.014V30.672A13.029,13.029,0,0,1,30.672,43.685ZM13.014,4.394a8.629,8.629,0,0,0-8.62,8.62V30.672a8.629,8.629,0,0,0,8.62,8.618H30.672a8.628,8.628,0,0,0,8.618-8.618V13.014a8.629,8.629,0,0,0-8.618-8.62ZM21.843,33.14a11.3,11.3,0,1,1,11.3-11.3A11.311,11.311,0,0,1,21.843,33.14Zm0-18.2a6.9,6.9,0,1,0,6.9,6.9A6.911,6.911,0,0,0,21.843,14.939Zm11.32-1.6a2.708,2.708,0,1,1,2.708-2.707A2.71,2.71,0,0,1,33.162,13.336Z" transform="translate(-19252.072 -12294.353)" fill="#061095"/>
+    </g>
+  </g>
+</svg>

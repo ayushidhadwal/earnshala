@@ -1,0 +1,509 @@
+
+.js-absolute {
+    font-size: 75px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    color: midnightblue;
+    bottom: 0;
+    left: 0;
+}
+
+.js-relative {
+    position: relative;
+}
+
+.h4-size {
+    font-size: 23px;
+    line-height: 2;
+}
+
+.bg-btn {
+    background: yellow;
+}
+
+.btn-size {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg-round {
+    border-radius: 25px;
+}
+
+.dark-blue {
+    background-color: #061095;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 35px;
+}
+
+.bx-shadow {
+    background: #F5F5F5;
+}
+
+.h4-color {
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.p-size {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.story {
+    padding-top: 90px;
+}
+
+.js-absolute2 {
+    font-size: 107px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    color: midnightblue;
+    bottom: -19px;
+    left: 0;
+}
+
+.story-h5 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.story-h55 {
+    font-size: 21px;
+}
+
+.ab-img {
+    height: 140px;
+}
+
+.article {
+    background: url("../img/png/slider-img.png");
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.sec2 {
+    padding-top: 230px;
+}
+
+.gappy {
+    padding-top: 50px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    height: 400px;
+    margin-top: -100px;
+    position: relative;
+    z-index: -1;
+}
+
+.footer-top {
+    padding-top: 120px;
+}
+
+.newss {
+    position: absolute;
+    z-index: 2;
+
+}
+
+.news {
+    background-color: #061095;
+    border-radius: 25px;
+    z-index: 99999;
+    width: 700px;
+}
+
+.js-siz3 {
+    font-size: 17px;
+}
+
+/* FAQ PAGE */
+.p-small {
+    font-size: 12px;
+}
+
+.js-border {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.card-body-js {
+    padding: 30px 30px;
+}
+
+.js-border:hover {
+    transition: .4s;
+}
+
+.input-shadow {
+    box-shadow: 3px 3px 3px 3px #F0F0F0;
+}
+
+.dsd-fix-card {
+    width: 49%;
+}
+
+/* Log in */
+
+.js-bg {
+    background: #1339BE;
+}
+
+.js-login-h6-size {
+    font-size: 20px;
+}
+
+.js-login-size {
+    font-size: 13px;
+}
+
+.js-login-h5 {
+    font-size: 20px;
+}
+
+.js-login-p {
+    font-size: 12px;
+}
+
+.js-padding-or-p {
+    font-size: 13px;
+}
+.js-login-hold::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BEBEBE;
+  font-size: 16px;
+  opacity: 1; /* Firefox */
+}
+
+.js-login-hold:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #BEBEBE;
+}
+
+.js-login-hold::-ms-input-placeholder { /* Microsoft Edge */
+ color: #BEBEBE; 
+}
+
+/* Register */
+
+.js-btn {
+    background: #FDE205;
+    color: white;
+    border-radius: 15px;
+}
+
+.js-border-bottom {
+    border-bottom: 3px solid #FDE205;
+}
+
+.reg-footer {
+    background: #0003C7;
+    height: 48px;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.js-footer {
+    color: #0003C7;
+    border-bottom: 2px solid yellow;
+}
+
+.js-flex {
+    cursor: pointer;
+
+}
+
+/* all buttons
+ */
+
+.btn-primaryy {
+    background: #0003C7;
+    color: white;
+}
+
+.btn-primaryy:hover {
+    color: white;
+}
+
+/* reg as ins */
+.js-reigster{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.js-reg-ins-p {
+    font-size: 13px;
+}
+
+.js-reg-ins-pp {
+    font-size: 14px;
+}
+.js-holder::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BEBEBE;
+ 
+  opacity: 1; /* Firefox */
+}
+
+.js-holder:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #BEBEBE;
+}
+
+.js-holder::-ms-input-placeholder { /* Microsoft Edge */
+ color: #BEBEBE; 
+}
+#specificSizeSelect{
+    color: #BEBEBE; 
+
+}
+.js-reg-google{
+    width: 65px;
+}
+.js-reg-face{
+    width: 53px;
+}
+.js-reg-link{
+    width: 56px;
+}
+
+
+.border-righttt-js{
+    padding: 0 8px; 
+    border-right: 1px solid #fff;
+}
+
+
+/* mobiles devices */
+@media (max-width: 767px) {
+    .js-absolute {
+        font-size: 50px;
+    }
+
+    .js-absolute2 {
+        font-size: 50px;
+    }
+
+    .p-top {
+        padding-top: 10px;
+    }
+
+    .h1-size {
+        font-size: 50px;
+    }
+
+    .h4-size {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .story {
+        padding-top: 40px;
+    }
+
+    .st-h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .story-h5 {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .story-h55 {
+        font-size: 18px;
+    }
+
+    .dark-blue {
+        background-color: #061095;
+        text-align: center;
+    }
+
+    .article {
+        background: url("../img/png/slider-img.png");
+        width: 100vw;
+        height: 750px;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    .js-siz1 {
+        font-size: 14px;
+    }
+
+    .js-siz3 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .news {
+        width: 250px;
+    }
+
+    .js-size1 {
+        font-size: 14px;
+    }
+
+    .js-size2 {
+        font-size: 11px;
+    }
+
+    .custom-search {
+        position: relative;
+        /*width: 227px;*/
+    }
+
+
+    /* faq page */
+    .js-border {
+        margin: 10px;
+    }
+
+    /* footer */
+    .h5-footer {
+        font-size: 12px;
+    }
+
+    .h3-footer {
+        font-size: 20px;
+    }
+
+    .p-footer {
+        font-size: 13px;
+    }
+
+    .h6-js-footer {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .js-footer-p {
+        padding: 0px;
+    }
+
+    .js-pb-footer {
+        padding-bottom: 80px;
+    }
+
+    .reg-footer {
+        height: 65px;
+    }
+
+    .js-right-footer {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* ins as learner */
+    .js-reg-ins-pp {
+        font-size: 10px;
+    }
+
+    .js-margin-faq {
+        margin: 0px;
+    }
+
+    .js-faq-size-h4 {
+        font-size: 20px;
+    }
+}
+
+
+/* ipad devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .p-size {
+        font-size: 15px;
+    }
+
+    .story {
+        padding-top: 60px;
+    }
+
+    .newss {
+        width: 500px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .news {
+        width: 600px;
+    }
+
+    .js-size1 {
+        font-size: 15px;
+    }
+
+    .js-size2 {
+        font-size: 12px;
+    }
+
+    .article {
+        background: url("../img/png/slider-img.png");
+        width: 100vw;
+        height: 630px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .footer {
+        margin-top: -90px;
+    }
+
+    .dark-blue {
+        text-align: center;
+
+    }
+
+    .custom-search {
+        position: relative;
+        width: 270px;
+    }
+}
+
+/* ipad pro devices */
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .width-img {
+        width: 100%;
+    }
+
+    .story {
+        padding-top: 130px;
+    }
+
+    .news {
+        background-color: #061095;
+    }
+
+    .newss {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .article {
+        background: url("../img/png/slider-img.png");
+        width: 100vw;
+        height: 650px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer {
+        margin-top: -100px;
+    }
+    .js-w-75{
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <filter id="Oval" x="-4" y="-1" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-YT">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="YT" clip-path="url(#clip-YT)">
+    <rect width="110" height="110" fill="#fff"/>
+    <g id="Group_1533" data-name="Group 1533" transform="translate(19550.664 12307.009)">
+      <g transform="matrix(1, 0, 0, 1, -19550.66, -12307.01)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="50" cy="50" r="50" transform="translate(5 5)" fill="#fff"/>
+      </g>
+      <path id="Youtube" d="M22.544,35.068h0c-.117,0-11.781-.085-15.314-.478-.19-.045-.421-.078-.689-.117a6.321,6.321,0,0,1-4.286-2.035C.949,30.942.471,27.531.467,27.5A79.83,79.83,0,0,1,0,19.447V15.7C0,11.69.462,7.612.467,7.571S.872,4.126,2.254,2.63A6.142,6.142,0,0,1,6.628.57h.009L6.763.558C12.986.086,22.449,0,22.544,0S32.1.086,38.325.558l.214.018a5.74,5.74,0,0,1,4.3,2.054c1.305,1.5,1.783,4.907,1.788,4.942s.467,4.116.467,8.129v3.747c0,3.932-.462,8.009-.467,8.049s-.483,3.445-1.788,4.942A6.142,6.142,0,0,1,38.46,34.5H38.45l-.126.011C32.1,35.062,22.639,35.068,22.544,35.068ZM17.1,9.484v17.3l14.771-8.448Z" transform="translate(-19518.207 -12269.543)" fill="#061095"/>
+    </g>
+  </g>
+</svg>

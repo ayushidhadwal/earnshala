@@ -1,0 +1,764 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+*{
+   box-sizing: border-box;
+}
+.slider{
+   width: 100%;
+}
+.js-line-hi {
+    line-height: 22px;
+}
+.slick-slide img {
+   width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+   color:  #FDE205 !important;
+}
+.slick-prev:after,
+.slick-next:after {
+   color:  #FDE205 !important;
+}
+.slick-slide {
+   transition: all ease-in-out .3s;
+}
+.slick-current {
+   opacity: 1;
+}
+.slick-prev, .slick-next {
+   top: 190px !important;
+}
+.slick-next{
+   background: white !important;
+}
+.slick-prev {
+   left: -30px !important;
+}
+.slick-next {
+    left: unset;
+    right: 50px;
+    bottom: 10px;
+}
+.slick-next{
+    right: -9px !important;
+}
+.slick-next .slick-arrow{
+    padding: 30px !important;
+}
+.slick-prev .slick-arrow{
+    padding: 30px !important;
+}
+.slick-next{
+    width: 48px !important;
+    height:48px !important;
+    border-radius: 50% !important;
+}
+.slick-prev{
+    width: 48px !important;
+    height:48px !important;
+    border-radius: 50% !important;
+    z-index: 9999999;
+    background: white !important;
+}
+.c-sl{
+    color: #434343 !important;
+}
+.c-card{
+	width: 15rem;
+	box-shadow: 8px 7px 7px #cecece;
+    height: 390px !important;
+    border: 0;
+    border-radius: 0;
+}
+.c-img{
+	width:218px;
+}
+.c2-img{
+	width:18px;
+	position: relative;
+	top: -1px;
+}
+.c-sp{
+	position: relative;
+	top: 1px;
+	font-size: 15px;
+	color: #434343;
+}
+.bg-percentage {
+    position: absolute;
+}
+.dslink {
+    color: #434343 !important;
+}
+.js-bg-gradient {
+    background-image: url("../img/courses/blue.png"); / The image used /
+background-color: #cccccc; / Used if the image is unavailable /
+height: auto; / You must set a specified height /
+background-position: center; / Center the image /
+background-repeat: no-repeat; / Do not repeat the image /
+background-size: cover; / Resize the background image to cover the entire container /
+}
+
+.c-fs{
+	width:625px;
+}
+.c-fs-b{
+	background: #E6E6E6;
+}
+.c3-img{
+    width: 35px;
+}
+.c-sup{
+	background: #FDE205;
+	color: white;
+	position: relative;
+	left: -20px;
+	top: -10px;
+}
+.c-sucp{
+	background: #FDE205;
+	color: white;
+	position: relative;
+	left: -12px;
+	top: -10px;
+}
+
+.c-b-bg1{
+    background-color: #ffffff;
+	color: #061095;
+	border-color: #061095;
+}
+.c-b-bg2{
+	background-color: #FDE205;
+	color: white;
+}
+.c-b-bg2:hover{
+	background-color: #061095;
+	color:  white;
+	border-color:  #061095;
+}
+.cou-img{
+    background:url("../img/courses/online-school.png");
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100% ;
+}
+.over{
+    background: rgba(0,0,0,0.3);
+    height: 602px;
+    width: 100%;
+}
+.c-ab{
+    position: relative;
+    }
+.has-search .form-control {
+    padding-left: .8rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 575px;
+    top: 5px;
+    font-size: 18px;
+}
+.c-fs{
+	position: relative;
+}
+.c-top-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 570px;
+    top: -8px;
+    font-size: 18px;
+}
+.c-m-h{
+	margin-top: 186px;
+}
+.c-h{
+	color: white;
+	font-size: 64px;
+}
+.c-h2{
+	color: white;
+	font-size: 26.3px;
+	width: 620px;
+}
+.c-ip{
+	width: 625px;
+}
+.c-ip::placeholder{
+	font-size: 18px;
+	position: relative;
+	top: 3px;
+}
+.c-fs-b::placeholder{
+	font-size: 15px;
+}
+.c-fls-b::placeholder{
+	font-size: 15px;
+}
+.c4{
+	width: 50px;
+}
+.csli-c{
+	color: #707070;
+	font-size: 14.8px;
+    font-family: dubai;
+}
+.c-w50{
+	width:18px !important;
+    padding-right: 4px;
+    margin-top: 4px;
+}
+.js-small {
+    font-size: 9px;
+    position: relative;
+    bottom: 3px;
+    right: 2px;
+}
+.c-h5{
+	font-size: 1.2rem;
+}
+.c-fls{
+	position: relative;
+}
+.c-top-l-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 450px;
+    top: -8px;
+    font-size: 18px;
+}
+.c-fls-b{
+	width:512px;
+}
+.c-fls-b{
+	background: #E6E6E6;
+}
+.cl-img{
+ width:57px;
+}
+.clli{
+	width: 25px;
+}
+.ml-xl-js{
+	margin-left: 1.2rem !important;
+}
+.navbar-brand{
+	border:0px;
+	outline: 0px;
+}
+.navbar-brand:hover{
+	border:0px;
+	outline: 0px;
+}
+.ml-xl-jss{
+	margin-left: 2rem !important;
+}
+.mx-xl-js-m{
+	margin-left: 1.2rem !important;
+}
+/* Mobile */
+
+@media(max-width: 767px){
+    .slick-prev {
+        left: -10px !important;
+    }
+.ml-xl-js{
+	margin-left: 0rem !important;
+}
+.ml-xl-jss{
+	margin-left: 0rem !important;
+}
+.mx-xl-js-m{
+	margin-left: 0rem !important;
+}
+.clli{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.c-img{
+	width:160px;
+}
+.navbar-toggler{
+	border:0px;
+	outline: 0px;
+	padding: 0px;
+
+}
+.navbar-toggler:hover{
+	border:0px;
+	outline: 0px;
+}
+.cou-img{
+    background:url("../img/courses/online-school.png");
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100% ;
+}
+.c-h{
+	font-size: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.c-h2{
+	font-size: 13px;
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.c-m-h{
+	margin-top: 95px;
+}
+.c-ip{
+	width: 250px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 220px;
+    top: 1px;
+    font-size: 12px;
+}
+.c-ip::placeholder{
+	font-size: 12px;
+	position: relative;
+	top: -1px;
+}
+.c-fs{
+	width: 100%;
+}
+.c-fs-b{
+	width:100%;
+}
+.c-top-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 90%;
+    top: -2px;
+    font-size: 14px;
+}
+.c-fs-b::placeholder{
+	font-size: 14px;
+}
+.c-fls{
+	width: 100%;
+}
+.c-fls-b{
+	width:100%;
+}
+.c-top-l-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 90%;
+    top: -2px;
+    font-size: 14px;
+}
+.c-fls-b::placeholder{
+	font-size: 14px;
+}
+
+.c-sp{
+	font-size: 16px;
+}
+.c-ph{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.c-ab{
+	margin-top: 25px;
+}
+.c-card{
+	width: 100%;
+	height: 490px !important;
+	border: 0;
+	border-radius: 0;
+}
+.c-spli{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.clli{
+	padding-left: 0px;
+}
+}
+
+/* IPAD */
+
+@media(min-width: 768px) and (max-width: 1023px){
+.ml-xl-js{
+	margin-left: 0rem !important;
+}
+.ml-xl-jss{
+	margin-left: 0rem !important;
+}
+.mx-xl-js-m{
+	margin-left: 0rem !important;
+}
+.clli{
+	margin-top: 20px;
+	margin-bottom: 7px;
+}
+.c-h{
+	font-size: 40px;
+}
+.c-h2{
+	font-size: 21px;
+	width: 400px;
+}
+.c-m-h{
+	margin-top: 197px;
+}	
+.cou-img{
+    background:url("../img/courses/online-school.png");
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100% ;
+}
+.navbar-toggler{
+	border:0px;
+	outline: 0px;
+	padding: 0px;
+
+}
+.navbar-toggler:hover{
+	border:0px;
+	outline: 0px;
+}
+.c-ip{
+	width: 397px;
+	margin-top: 12px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 358px;
+    top: 18px;
+    font-size: 17px;
+}
+.c-fs{
+    width:100%;
+    position: relative;
+    top: 4px;
+} 
+.c-fls{
+	width: 100%;
+}
+.c-fls-b{
+	width:100%;
+}
+.c-top-l-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 93%;
+    top: -2px;
+    font-size: 14px;
+}
+.c-fs-b::placeholder{
+	font-size: 14px;
+}
+.c-ph{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.c-img{
+	width:170px;	
+}
+.c-fs-b::placeholder{
+	font-size: 15px;
+}
+.c-sp{
+	font-size: 16px;
+}
+.c-top-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 93%;
+    top: -8px;
+    font-size: 18px;
+}
+.c-sup{
+	background: #FDE205;
+	color: white;
+	position: relative;
+	left: -20px;
+	top: -6px;
+}
+.c-sucp{
+	background: #FDE205;
+	color: white;
+	position: relative;
+	left: -12px;
+	top: -2px;
+}
+}
+
+
+ /* IPAd PRO */
+
+@media(min-width: 1024px) and (max-width: 1099px){
+.c-m-h{
+	margin-top: 169px;
+}
+.c-ph{
+	padding-left: 0px;
+	padding-right: 0px;
+}	
+.c-h{
+    font-size: 52px;
+}	
+.c-h2{
+	color: white;
+	font-size: 27px;
+	width: 550px;
+}
+.cou-img{
+    background:url("../img/courses/online-school.png");
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100% ;
+}
+.over{
+    background: rgba(0,0,0,0.5);
+    height: 540px;
+    width: 100%;
+}
+.c-fs{
+    width:380px;
+     position: relative;
+    top: 3px;
+} 
+.c-top-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 320px;
+    top: -8px;
+    font-size: 18px;
+} 
+.c-fs-b::placeholder{
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+} 
+.c-ip{
+	width: 510px;
+}
+.c-fls{
+	width: 275px;
+}
+.c-fls-b{
+	width:100%;
+}
+.c-top-l-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 82%;
+    top: -6px;
+    font-size: 14px;
+}
+.c-fs-b::placeholder{
+	font-size: 14px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 460px;
+    top: 5px;
+    font-size: 18px;
+}
+.cl-img{
+ width:55px;
+}
+.ml-xl-js{
+	margin-left: 1.2rem !important;
+}
+.clli{
+
+}
+}
+
+
+
+
+/*.js-new-container {
+	width: 1320px;
+	max-width: 1340px;
+	margin: 0 auto;	
+}
+*/
+
+@media(min-width: 1100px) and (max-width: 1300px){
+	.js-new-container {
+	width: 1220px;
+	max-width: 1220px;
+	margin: 0 auto;	
+	}
+	.clli{
+            width: 15px;
+	}
+	.c-spli{
+		font-size: 14px;
+		padding-bottom: 0px;
+	}
+	.c-fls-b{
+      width: 300px;
+	}
+	.c-top-l-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 85%;
+    top: -6px;
+    font-size: 14px;
+}
+.c-fs-b{
+      width:420px;
+
+	}
+	.c-fs{
+		width: 470px;
+	}
+	.c-top-s{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #061095;
+    left: 80%;
+    top: -6px;
+    font-size: 14px;
+}
+
+.c-spli{
+	font-size: 22px;
+}
+
+
+.ml-xl-jss{
+	width: 120px;
+}
+}
+
+
+@media(min-width: 1301px) {
+	.js-new-container {
+	width: 1327px;
+	max-width: 1327px;
+	margin: 0 auto;	
+	}
+}
+
+@media(min-width: 700px) and (max-width: 800px){
+    .c-card {
+        width: 14rem;
+        box-shadow: 8px 7px 7px #cecece;
+        height: 390px !important;
+        border: 0;
+        border-radius: 0;
+    }
+}
+
+@media(max-width: 800px){
+
+    .js-new-container-clr {
+        background-color: #1339be;
+    }
+    .js-condiiton-white {
+        display: none;
+    }
+}
+
+@media(min-width: 801px){
+
+    .js-condiiton-blue {
+        display: none;
+    }
+}
+

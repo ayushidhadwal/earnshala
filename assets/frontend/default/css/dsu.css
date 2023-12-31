@@ -1,0 +1,390 @@
+body.gray-bg {
+    background: #fff !important;
+    font-family: dubai !important;
+}
+.dsu-form-control {
+    width: 580px !important;
+    background-color: #E6E6E6 !important;
+    border: none !important;
+    height: unset !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.dsu-form-control-login {
+    width: 440px !important;
+    background-color: #E6E6E6 !important;
+    border: none;
+}
+.dsu-container-fluid {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dsu-position-relative {
+    position: relative;
+    right: 40px;
+    cursor: pointer;
+    color: #061095;
+}
+.dsu-w-218 {
+    width: 218px;
+}
+.dsu-py-2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.dsu-cart-img {
+    width: 40px;
+}
+.dsu-btn-login {
+    border: 1px solid #061095;
+    color: #061095;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #fff;
+}
+.dsu-btn-register {
+    background-color: #FDE205;
+    color: white;
+    border: 1px solid #FDE205;
+    border-radius: 4px;
+    padding: 12px 10px;
+}
+.dsu-btn-login:focus {
+    outline: none;
+}
+.dsu-btn-register:focus {
+    outline: none;
+}
+.ds-login-header-btn {
+    padding: 6px 20px;
+    background-color: rgb(19, 57, 190);
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+}
+.ds-main-bg {
+    background-color: rgb(19, 57, 190) !important;
+}
+
+.dsu-btn-register:hover {
+    background-color: #061095;
+    border: 1px solid #061095;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 10px;
+}
+.dsu-bg-percentage {
+    position: absolute;
+}
+.dsu-height {
+    box-shadow: 7px 3px 14px 0px #e8e8e8;
+}
+.dsu-link-clr {
+    color: #434343;
+}
+.dsu-pr {
+    position: relative;
+}
+.dsu-cart-items {
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    background-color: #FDE205;
+}
+.dsu-cart-items-login-h {
+    position: absolute;
+    top: -7px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    right: 0px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    background-color: #FDE205;
+}
+.dsu-cart-items-login-c {
+    position: absolute;
+    top: -7px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    right: -2px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    background-color: #FDE205;
+}
+.dsu-w-58 {
+    width: 58px;
+}
+.dsu-w-35 {
+    width: 25px;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.dsu-toggle {
+    position: absolute;
+    right: 15px;
+    width: 150px;
+    background-color: #fff;
+    padding-left: 0;
+    z-index: 99;
+}
+.dsu-toggle li {
+    list-style: none;
+    border-bottom: 1px solid #dedede;
+    padding: .2rem 0 .4rem 1rem;
+}
+
+.dsu-toggle li a{
+    text-decoration: none;
+    color: rgb(19, 57, 190);
+    display: block;
+}
+.dsu-toggle li:hover {
+    background-color: rgb(19, 57, 190);
+    border-bottom: none;
+    color: #fff;
+}
+.dsu-toggle li:hover a{
+    color: #fff;
+}
+.footer-area {
+    background-color: #fff;
+    padding: 30px 0;
+    border-bottom: 6px solid rgb(19, 57, 190);
+    border-top: 1px solid #e8e9eb;
+}
+.dsu-course-detail {
+    background-color: #061095;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dsu-start-lesson {
+    background-color: #FDE205;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dsu-add-to-wishlist {
+    background-color: #1339be;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: .6rem;
+    font-size: 16px;
+    border: none;
+    color: white !important;
+    text-align: center;
+    display: block;
+}
+.dsu-get-enrolled {
+    background-color: #FDE205;
+    padding: 12px 16px;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.cart-sidebar .total-price {
+    font-size: 36px;
+    line-height: 49px;
+    color: #1339be;
+    font-weight: 600;
+}
+.cart-course-wrapper .price .current-price {
+    color: #1339be;
+    font-weight: 900;
+}
+.dsu-add-to-wishlist:hover {
+    background-color: #082eb3;
+    color: #fff !important;
+}
+.dsu-get-enrolled:hover {
+    background-color: #e5cc00;
+    color: white;
+}
+section.course-header-area {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #121a29, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #121a29, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 60px 0;
+}
+.course-box:before, .course-box:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 104%;
+    will-change: opacity;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -ms-webkit-transition: .2s ease;
+    z-index: -1;
+}
+.bg-danger {
+    background-color: #061095!important;
+}
+.footer-menu .nav-link {
+    padding: 6px 0;
+    font-size: 13px;
+    color: #061095 !important;
+}
+.filter-box .btn {
+    border-radius: 2px;
+    border-color: #061095;
+    color: #061095;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 12px;
+    min-width: 60px;
+    background: transparent;
+}
+.filter-box .btn:hover, .filter-box .btn:focus {
+    background: #fff !important;
+    color: #061095 !important;
+    border-color: #061095 !important;
+}
+section.page-header-area {
+    padding: 40px 0 30px;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #121a29, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #121a29, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.topnav-navbar-dark {
+    background-color: rgb(19, 57, 190);
+}
+.topnav-navbar-dark .nav-user {
+    background-color: #123c7b;
+    border: 1px solid #123c7b;
+}
+.bg-primary {
+    background-color: #123c7b!important;
+}
+.left-side-menu-detached {
+    background-color: #1339be;
+}
+.left-side-menu-detached .side-nav-light .side-nav-link {
+    color: #ffffff;
+}
+.leftbar-user .leftbar-user-name {
+    color: #fff;
+}
+.left-side-menu-detached .side-nav-light .side-nav-title {
+    color: #fff;
+}
+
+.side-nav-second-level li a{
+
+    color: white !important;
+}
+section.category-header-area {
+    padding: 40px 0 30px;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #121a29, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #121a29, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #fff;
+}
+
+.ds-course-sub-menu {
+    position: absolute;
+    padding-left: 0;
+    top: 78px;
+    z-index: 99;
+}
+
+.ds-course-sub-menu li {
+    list-style: none;
+    background-color: #1339be;
+    width: 150px;
+    text-align: center;
+    border-bottom: 1px solid #c2c7ff;
+}
+.ds-course-sub-menu li:hover {
+    background-color: #0426a2;
+    padding: 2px 0;
+}
+
+.ds-course-sub-menu li a {
+    text-decoration: none;
+    color: #eaeaea;
+    display: block;
+}
+
+
+@media(max-width: 900px) {
+    .dsu-container-fluid {
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ds-course-sub-menu {
+        position: relative;
+        padding-left: 0;
+        top: 0px;
+    }
+    .dsu-form-control {
+        width: 100% !important;
+        background-color: #E6E6E6 !important;
+        border: none !important;
+        height: unset !important;
+    }
+    .dsu-bg-light {
+        background-color: #cecece;
+    }
+    .dsu-dv {
+        display: none;
+    }
+    .dsu-dv {
+        display: none;
+    }
+    .dsu-toggle {
+        position: relative;
+        right: 0px;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .dsu-form-control-login {
+        width: 100% !important;
+        background-color: #E6E6E6 !important;
+        border: none;
+    }
+    .dsu-hi {
+        height: 40px;
+    }
+
+}
+
+
+
+@media(min-width: 901px) {
+    .dsu-mv {
+        display: none;
+    }
+}
+

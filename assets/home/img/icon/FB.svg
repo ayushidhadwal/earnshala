@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <filter id="Oval" x="-4" y="-1" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-FB">
+      <rect width="110" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="FB" clip-path="url(#clip-FB)">
+    <rect width="110" height="110" fill="#fff"/>
+    <g id="Facebook" transform="translate(4.803 4.997)">
+      <g transform="matrix(1, 0, 0, 1, -4.8, -5)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="50" cy="50" r="50" transform="translate(5 5)" fill="#fff"/>
+      </g>
+      <path id="Facebook-2" data-name="Facebook" d="M15.623,46.995H5.206V24.8H0V16.252H5.206v-5.13C5.206,4.15,8.145,0,16.5,0h6.952V8.552H19.1c-3.252,0-3.468,1.194-3.468,3.424l-.013,4.276H23.5L22.575,24.8H15.623V46.995Z" transform="translate(39.198 27.003)" fill="#061095"/>
+    </g>
+  </g>
+</svg>
